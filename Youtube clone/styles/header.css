@@ -1,0 +1,116 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    background-color: white;
+    border-bottom: 1px solid rgb(228,228,228);
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 75px;
+    margin-right: 35px;
+    max-width: 700px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.hamburger-logo{
+    height: 25px;
+    margin-left: 25px;
+}
+.youtube-logo{
+    height: 20px;
+    margin-left: 20px;
+}
+.voice-search-button{
+    height: 40px;
+    width: 60px;
+}
+.search-bar{
+    flex: 1;
+    height: 37px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: 'Roboto',Arial;
+    font-size: 15px;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
+    margin-left: -1px;
+}
+.search-button{
+    height: 41px;
+    width: 66px;
+    background-color: rgb(240,240,240);
+    border: 1px solid rgb(192,192,192);
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.05);
+    border-radius: 2px;
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.voice-search-icon{
+    height: 24px;
+    margin-top: 4px;
+}
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(248,248,248);
+    border: none;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.05);
+    border-radius: 20px;
+    margin-left: -1px;
+}
+.upload-icon{
+    height: 25px;
+}
+.youtube-apps-icon{
+    height: 25px;
+}
+.notifications-icon-container{
+    position: relative;
+}
+.notifications-icon{
+    height: 25px;
+    /* position: absolute; */
+}
+.notifications-count{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Roboto',Arial;
+    padding-left: 3px;
+    padding-right: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.current-user-picture{
+    height: 25px;
+    border-radius: 12.5px;
+}

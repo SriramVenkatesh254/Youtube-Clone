@@ -1,0 +1,38 @@
+.sidebar{
+    /* background-color: green; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 80px;
+
+}
+/* .home-icon, .explore-icon, .subscriptions-icon, .originals-icon, .youtube-music-icon, .library-icon{
+    height: 15px;
+    width: 25px;
+    padding-left: 25px;
+    padding-bottom: 60px;
+    font-size: 10px;
+    text-align: center;
+}
+.home-icon{
+    padding-top: 20px;
+} */
+
+.sidebar-link{
+    height: 100px;
+    display: flex;
+    justify-content: center; /*Horizontal Center*/
+    align-items: center; /*Vertical Center */
+    flex-direction: column;
+}
+.sidebar-link:hover{
+    background-color: rgb(235,235,235);
+}
+.sidebar-link img{
+    height: 24px;
+}
+.sidebar-link p{
+    font-size: 11px;
+    padding-top: 8%;
+}
